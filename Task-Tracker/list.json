@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "task": "Comprar verduras",
+    "done": "in progress"
+  },
+  {
+    "id": 2,
+    "task": "Comprar carne",
+    "done": "in progress"
+  }
+]
