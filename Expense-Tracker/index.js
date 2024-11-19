@@ -50,7 +50,7 @@ function updateExpense(id, description, amount) {
             console.error("ELEMENTO NO ENCONTRADO " + id)
             return
         } else {
-            expenseFind[0].description = description.length > 2 ? description : expenseFind[0].description
+            expenseFind[0].description = description != null || undefined ? description : expenseFind[0].description
             expenseFind[0].amount = amount > 1 ? amount : expenseFind[0].amount
         }
         const jsonString = JSON.stringify(expenses, null, 2)

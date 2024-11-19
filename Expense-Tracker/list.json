@@ -1,11 +1,5 @@
 [
   {
-    "id": 2,
-    "description": "compre una heladera",
-    "amount": 10000,
-    "date": "2024-10-19"
-  },
-  {
     "id": 3,
     "description": "Compre una Wii",
     "amount": 2000,
@@ -14,11 +8,17 @@
   {
     "id": 4,
     "description": "Almuerzo",
-    "amount": 150,
+    "amount": 50,
     "date": "2024-10-19"
   },
   {
     "id": 5,
+    "description": "Netflix",
+    "amount": 2000,
+    "date": "2024-10-19"
+  },
+  {
+    "id": 6,
     "description": "Netflix",
     "amount": 2000,
     "date": "2024-10-19"
