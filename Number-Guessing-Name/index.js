@@ -20,6 +20,14 @@ const numberChoice = Math.floor(Math.random() * 100) + 1;
 let intentos = 0;
 let nextStep = false
 console.log(`
+    ==================================
+    Bienvenido al Juego de Adivinanza!
+    ==================================
+    Estoy pensando en un número entre 1 y 100.
+    Tienes que adivinarlo según el nivel de dificultad que elijas.
+`);
+
+console.log(`
     ===============================
       Selecciona la dificultad
     ===============================
