@@ -3,7 +3,7 @@
 
 ¡Bienvenido al **Juego de Adivinanza de Números**! Este es un juego simple basado en la línea de comandos en el que el usuario tiene que adivinar un número aleatorio entre 1 y 100. El juego incluye diferentes niveles de dificultad y te brinda pistas en cada intento. 🚀
 
-[number-guessing-game](https://roadmap.sh/projects/number-guessing-game) - [roadmap.sh](roadmap.sh).
+https://roadmap.sh/projects/number-guessing-game
 ---
 
 ## 📝 Reglas del Juego
