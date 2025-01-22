@@ -4,7 +4,7 @@ import { createPost, editPost, deletePost } from '../controller/Admin.controller
 const router = Router();
 
 router.get("/protegida", basicAuthMiddleware, (req, res) => {
-    res.send("hola")
+    res.send({data: "ok"})
 })
 
 router.post("/", basicAuthMiddleware, createPost)

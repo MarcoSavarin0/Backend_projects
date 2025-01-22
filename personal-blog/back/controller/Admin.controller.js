@@ -1,3 +1,4 @@
+import { log } from 'console';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -14,7 +15,7 @@ export async function createPost(req, res) {
         id: Date.now()
     };
     const filePath = path.join(__dirname, '../data/post.json');
-
+    console.log(title + " " + fecha + " " + descripcion);
     try {
         const fileData = await fs.promises.readFile(filePath, 'utf-8');
         const posts = JSON.parse(fileData);
@@ -63,7 +64,7 @@ export async function deletePost(req, res) {
             return res.status(404).json({ message: "No se encontró el post con el id especificado." });
         }
         await fs.promises.writeFile(filePath, JSON.stringify(updatePost, null, 2));
-        res.status(200).json({ message: "Post eliminado con éxito." });
+        res.status(200).json({ message: "Post eliminado con éxito." , new: updatePost});
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: "Ups! ocurrio un error al eliminar el post" });
